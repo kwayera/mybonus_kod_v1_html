@@ -1,0 +1,125 @@
+<html>
+
+<head>
+  <title>My Bonus Reward</title>
+  <meta charset="UTF-8">
+  <link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+  <div id="content">
+    <div id="moto"></div>
+    <div id="content2">
+      <div id="cards">
+        <div id="one"></div>
+        <div id="two"></div>
+        <div id="three"></div>
+      </div>
+      <div class="block1">
+        <p>Повысить продажи в отдельных торговых точках или по всей товаропроводящей цепочке?<br><br>
+          Мотивировать партнеров и клиентов от дилеров до продавцов в магазине?<br><br>
+          Улучшить представленность вашего товара и расширить ассортимент продаж?<br><br>
+          Повысить лояльность партнеров?<br><br>
+          И потратить меньше?</p>
+        <input type="button" class="wborder" value="Заказать демо-версию" id="demoButton">
+      </div>
+      <div class="block2">
+        <div id="block21">
+          <p>Облачную платформу мотивации<br> персонала</p>
+          <input type="button" value="Узнать больше" id="knowMore1">
+        </div>
+        <div id="block22">
+          <p>Персонал всех уровней<br> товаропроводящей цепочки</p>
+          <input type="button" value="Узнать больше" id="knowMore2">
+        </div>
+        <div id="block23">
+          <p>Быстро и в полном объеме всех, <br>
+            кто выполнил поставленные задачи</p>
+          <input type="button" value="Узнать больше" id="knowMore3">
+        </div>
+      </div>
+      <div id="block3">&nbsp;</div>
+      <div id="block3a">
+        <div id="block31">
+          <p>Автоматизация
+            всех <br>алгоритмов мотивации персонала
+          </p>
+        </div>
+        <div id="block32">
+          <p>Выставления различных наборов kpi <br> индивидуально под каждую или пул <br> торговых точек</p>
+        </div>
+        <div id="block33">
+          <p>Денежная мотивация участников <br>
+            на личные банковские карты без ограничений</p>
+        </div>
+      </div>
+      <div id="block4">&nbsp;</div>
+      <div id="block5">
+        <div id="block51">&nbsp;</div>
+        <div id="block52">&nbsp;</div>
+        <div id="block53">&nbsp;</div>
+      </div>
+      <div id="block6">
+        <div id="contacts">
+          <div><img src="/static/img/contacts.png" alt="" style="padding: 10px 20px 5px 150px;"></div>
+          <p>
+            <a href="mailto:welcome@mybonusreward.ru">welcome@mybonusreward.ru</a><br>
+            <a href="mailto:hello@fabrikadm.ru">hello@fabrikadm.ru</a><br>
+            <a href="mailto:help@mybonusreward.ru">help@mybonusreward.ru</a><br>
+            <a href="mailto:call@mybonusreward.ru ">call@mybonusreward.ru</a>
+              <br><br>
+          +7 (495) 663 7675
+        </p>
+        </div>
+        <div id="application"><center><input type="button" value="Оставить заявку" id="feedbackButton"></center>
+        <div class="wrapper">
+          <div><img src="/static/img/card1.png/img/card1.png" alt=""></div>
+          <div><img src="/static/img/card2.png/img/card2.png" alt=""></div>
+          <div><img src="/static/img/card3.png/img/card3.png" alt=""></div>
+      </div></div></div>
+      <div id="footeerline"><a href="http://mybonusreward.ru">Mybonusreward.ru</a></div>
+    </div>
+  </div>
+  <div class="modal" id="modal" style="display: none;">
+    <div class="modal-content">
+        <form action="/message/" method="POST">
+        <input type="hidden" name="csrfmiddlewaretoken" value="PJX0pv02gzvAXOUiD5xQ12pDpof0Se223vaKTyCt6NuKguCRZVxnlHjotG4bR3BR">
+        <div class="parent">
+          <div class="div1"> </div>
+          <div class="div2"><span id="closeModal" class="close-btn">×</span></div>
+          <div class="div3" id="modalTitle">TITLE</div>
+          <div class="div4"><input type="text" name="name" id="name" placeholder="Имя" required=""></div>
+          <div class="div5"><input type="email" name="email" id="email" placeholder="е-mail" required=""></div>
+          <div class="div6"><input type="phone" name="phone" id="phone" placeholder="телефон"></div>
+          <div class="div7"><textarea required="" name="message" id="message" cols="30" rows="10" placeholder="Сообщение"></textarea></div>
+          <div class="div8"><button class="" type="submit">Отправить</button></div>
+          <div class="div9"><button class="" type="reset" id="resetForm">Сбросить</button></div>
+          </div>
+        </form>
+    </div>
+</div>
+<script src="/static/js/main.js"></script>
+
+<!-- Matomo -->
+<script type="text/javascript">
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://clotho.ka2.lv/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '20']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code -->
+
+<!-- Matomo Image Tracker-->
+<img src="https://clotho.ka2.lv/matomo.php?idsite=20&amp;rec=1" style="border:0" alt="" />
+<!-- End Matomo -->
+
+</body>
+
+</html>
