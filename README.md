@@ -2,7 +2,7 @@ echo "# mybonus_kod_v1_html"
 
 
 # Описание разметки файла README.md
-Для описания проектов на GitHub используется README.md, который пишется на языке разметки markdown. Что и как поддерживается расписано ниже. Также существует еще один формат - [reStructuredText](https://github.com/GnuriaN/format-README/blob/master/README.rst), описание которого вынесено в отдельный файл `README.rst`.
+Для описания проектов на GitHub используется README.md, который пишется на языке разметки markdown. Что и как поддерживается расписано ниже. 
 
 ## Оглавление
 
@@ -448,5 +448,6 @@ API
 Training
 Blog
 About
-#   m y b o n u s _ k o d _ v 1 _ h t m l  
- 
+#� �m�y�b�o�n�u�s�_�k�o�d�_�v�1�_�h�t�m�l�
+�
+�
